@@ -7,10 +7,6 @@
 
 import Foundation
 
-class TodoModel {
+struct TodoModel {
     let description: String
-    
-    init(description: String){
-        self.description = description
-    }
 }
